@@ -1,28 +1,42 @@
-# Task 2 - Deep Learning Model
+# AI Internship Task 2 - Deep Learning Image Classification
 
 ## Objective
-Build an image classification model.
+Build and evaluate a deep learning model for image classification.
 
-## Model Used
-Simple Neural Network (PyTorch)
+---
 
 ## Dataset
-CIFAR-10
+CIFAR-10 (subset used for faster training)
+
+---
 
 ## Features
+- Data preprocessing
 - Data augmentation
-- Training and evaluation
-- Model saving
+- Neural network training
+- Evaluation metrics
+- Model saving (model.pth)
 
-## Output
-- Training Loss
-- Test Accuracy
-- Graph
+---
 
-## Model File
-model.pth (included in repository)
+## Reproducibility (IMPORTANT)
+
+### Install Dependencies
+pip install torch==2.0.1 torchvision==0.15.2 matplotlib==3.7.2
+
+### Python Version
+Python 3.9+
+
+---
 
 ## How to Run
-pip install torch torchvision matplotlib
+1. Open Jupyter Notebook or Google Colab  
+2. Run all cells  
+3. Model will be saved as model.pth  
 
-Run notebook in Jupyter or Google Colab.
+---
+
+## Output
+- Training loss graph  
+- Test accuracy  
+- Saved trained model
